@@ -25,7 +25,7 @@ $asunto = 'mensaje de sitio web';
 
 mail($para,$asunto, utf8_decode($mensaje), $header);
 
-header('Location:cotizar.html');
+header('Location:exito.html');
 
 ?>
 
