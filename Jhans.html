@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn.glitch.global/c8ae3563-7820-43f9-9f9d-9f7a9c05c680/Sin%20t%C3%ADtuloL.png?v=1686265807779" sizes="32x32" /> 
+    <link rel="icon" href="https://cdn.glitch.global/c8ae3563-7820-43f9-9f9d-9f7a9c05c680/Sin%20t%C3%ADtuloL.png?v=1686265807779" sizes="592x592" />
+    <link rel="apple-touch-icon" href="https://cdn.glitch.global/c8ae3563-7820-43f9-9f9d-9f7a9c05c680/Sin%20t%C3%ADtuloL.png?v=1686265807779" />
+    <meta name="msapplication-TileImage" content="logo3" />
+    <title>Productos</title>
+    <link rel="stylesheet" href="productos/estilos/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header>
+    <nav>
+    <ul>
+        <li><a href="index.html"> Inicio </a></li>
+        <li><a href="cotizar.html"> Cotizar </a></li>
+        <li><a href="Jhans.html"  class="active"> Productos </a></li>
+    </ul>
+    </nav>
+</header>
+<script type="text/javascript">
+    window.addEventListener("scroll", function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("abajo",window.scrollY>0);
+})
+</script>
+<body>
+
+    <section class="principio" >
+        <video class="mp4" autoplay loop muted src="productos/multimedia/mar.mov"></video>
+      
+        <h1>Productos</h1><br><br>
+        <p>en el cielo hay tantas estrellas pero con rental <u style="color: yellow;">JHAMS</u> es facil alcanzarlas</p><br><br>
+        
+            <a href="nosotros.html" class="btn-neon">
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
+                <span id="span4"></span>
+               Mas sobre nosotros
+            </a>
+        
+    </section>
+
+    <section class="dialogo">
+        <p class="primero">NUESTROS VEHICULOS PARA</p>
+    </section>
+    <section class="sec1">
+    <div class="uno" id="animado">
+        <img src="productos/img/2.png" class="camioneta" >
+    </div>
+    <div class="uno1" id="animado2" >
+        <h4>Camioneta 4x4 Toyota</h4>
+        <ul>
+            <li>Sistema de audio</li>
+            <li>Autorización por SUTRAN para todo tipo</li>
+            <li>Autorización por SUTRAN para todo tipo</li>
+            <li>Seguro Contra Todo Riesgo</li>
+            <li>Póliza de seguro SOAT</li>
+            <li>Inspección técnica vehicular</li>
+            <li>Control Saterlital GPS</li>
+        </ul>
+    </div>
+    </section>
+    <script>
+        window.addEventListener('scroll', function(){
+            let animacion = document.getElementById('animado');
+            let posicionObj1 = animacion.getBoundingClientRect().top;
+            console.log(posicionObj1);
+            let tamañoDePantalla = window.innerHeight/1.2;
+
+            if(posicionObj1 < tamañoDePantalla){
+                animacion.style.animation = 'mover 1s ease-out'
+            }
+        })
+        window.addEventListener('scroll', function(){
+            let animacion = document.getElementById('animado2');
+            let posicionObj1 = animacion.getBoundingClientRect().top;
+            console.log(posicionObj1);
+            let tamañoDePantalla = window.innerHeight/1.2;
+
+            if(posicionObj1 < tamañoDePantalla){
+                animacion.style.animation = 'mover 1s ease-out'
+            }
+        })
+    </script>
+    <section class="dialogo2">
+        <p class="primero">CAMPAÑAS CUMPLIENDO SUS OBJETIVOS</p>
+    </section>
+    <section class="sec2">
+        <div class="dos">
+            <img src="productos/img/3.png" class="combi" id="animado3">
+        </div>
+        <div class="dos2" id="animado4">
+            <h4>Combi Toyota</h4>
+            <ul>
+                <li>Control Saterlital GPS</li>
+                <li>Autorización por SUTRAN para todo tipo</li>
+                <li>Jaula interior</li>
+                <li>Seguro Contra Todo Riesgo</li>
+                <li>Asientos reclinables
+                </li>
+                <li>Capacidad para 16 pasajeros</li>    
+            </ul>
+        </div>
+        </section>
+        <script>
+            window.addEventListener('scroll', function(){
+                let animacion = document.getElementById('animado3');
+                let posicionObj1 = animacion.getBoundingClientRect().top;
+                console.log(posicionObj1);
+                let tamañoDePantalla = window.innerHeight/1.3;
+    
+                if(posicionObj1 < tamañoDePantalla){
+                    animacion.style.animation = 'mover 2s ease-out'
+                }
+            })
+            window.addEventListener('scroll', function(){
+                let animacion = document.getElementById('animado4');
+                let posicionObj1 = animacion.getBoundingClientRect().top;
+                console.log(posicionObj1);
+                let tamañoDePantalla = window.innerHeight/1.6;
+    
+                if(posicionObj1 < tamañoDePantalla){
+                    animacion.style.animation = 'mover 4s ease-out'
+                }
+            })
+        </script>
+        <section class="dialogo3">
+            <p class="primero">INVESTIGACION</p>
+        </section>
+        <section class="sec3">
+            <div class="tres">
+                <img src="productos/img/5.png" class="camion" id="animado5">
+            </div> 
+            <div class="tres3" id="animado6">
+                <h4>Camioncito Hino</h4>
+                <ul>
+                    <li>2,480 Kg Peso neto</li>
+                    <li>3,100 Kg capacidad de carga en el eje delantero</li>
+                    <li>4,9 largo carrozable</li>
+                    <li>43 Kgfm torque maximo plano</li>
+                    <li>150 ps potencia maxima</li>
+                    <li>4,520 KG capacidad de carga</li>
+                </ul>
+            </div>
+            </section>
+            <script>
+                window.addEventListener('scroll', function(){
+                    let animacion = document.getElementById('animado5');
+                    let posicionObj1 = animacion.getBoundingClientRect().top;
+                    console.log(posicionObj1);
+                    let tamañoDePantalla = window.innerHeight/1.2;
+        
+                    if(posicionObj1 < tamañoDePantalla){
+                        animacion.style.animation = 'mover 2s ease-out'
+                    }
+                })
+                window.addEventListener('scroll', function(){
+                    let animacion = document.getElementById('animado6');
+                    let posicionObj1 = animacion.getBoundingClientRect().top;
+                    console.log(posicionObj1);
+                    let tamañoDePantalla = window.innerHeight/1.6;
+        
+                    if(posicionObj1 < tamañoDePantalla){
+                        animacion.style.animation = 'mover 4s ease-out'
+                    }
+                })
+            </script>
+            <section class="dialogo4">
+                <p class="primero">TOPOGRAFICO</p>
+            </section>
+            <section class="sec4">
+                <div class="cuatro">
+                    <img src="productos/img/7.png" class="cerrada" id="animado7">
+                </div>
+                <div class="cuatro4" id="animado8">
+                    <h4>Camioneta cerrada Toyota</h4>
+                    <ul>
+                        <li>Inspección técnica vehicular</li>
+                        <li>Autorización por SUTRAN para todo tipo</li>
+                        <li>Control Saterlital GPS</li>
+                        <li>Seguro Contra Todo Riesgo</li>
+                        <li>Todo terreno con hasta 7 pasajeros</li>
+                        <li>Inspección técnica vehicular</li>
+                    </ul>
+                </div>
+                </section>
+                <script>
+                    window.addEventListener('scroll', function(){
+                        let animacion = document.getElementById('animado7');
+                        let posicionObj1 = animacion.getBoundingClientRect().top;
+                        console.log(posicionObj1);
+                        let tamañoDePantalla = window.innerHeight/1.2;
+            
+                        if(posicionObj1 < tamañoDePantalla){
+                            animacion.style.animation = 'mover 2s ease-out'
+                        }
+                    })
+                    window.addEventListener('scroll', function(){
+                        let animacion = document.getElementById('animado8');
+                        let posicionObj1 = animacion.getBoundingClientRect().top;
+                        console.log(posicionObj1);
+                        let tamañoDePantalla = window.innerHeight/1.6;
+            
+                        if(posicionObj1 < tamañoDePantalla){
+                            animacion.style.animation = 'mover 4s ease-out'
+                        }
+                    })
+                </script>
+                <section class="dialogo5">
+                    <p class="primero">MINAS</p>
+                </section>
+                <section class="sec5">
+                    <div class="cinco">
+                        <img src="productos/img/8.png" class="custer" id="animado9">
+                    </div>
+                    <div class="cinco5" id="animado10">
+                        <h4>Custer Toyota</h4>
+                        <ul>
+                            <li>Inspección técnica vehicular</li>
+                            <li>Autorización por SUTRAN para todo tipo</li>
+                            <li>Control Saterlital GPS</li>
+                            <li>Aire acondicionado</li>
+                            <li>Póliza de seguro SOAT</li>
+                            <li>tiene configuración para 26 y 30 pasajeros</li>
+                        </ul>
+                    </div>
+                    </section>
+                    <script>
+                        window.addEventListener('scroll', function(){
+                            let animacion = document.getElementById('animado9');
+                            let posicionObj1 = animacion.getBoundingClientRect().top;
+                            console.log(posicionObj1);
+                            let tamañoDePantalla = window.innerHeight/1.2;
+                
+                            if(posicionObj1 < tamañoDePantalla){
+                                animacion.style.animation = 'mover 2s ease-out'
+                            }
+                        })
+                        window.addEventListener('scroll', function(){
+                            let animacion = document.getElementById('animado10');
+                            let posicionObj1 = animacion.getBoundingClientRect().top;
+                            console.log(posicionObj1);
+                            let tamañoDePantalla = window.innerHeight/1.6;
+                
+                            if(posicionObj1 < tamañoDePantalla){
+                                animacion.style.animation = 'mover 4s ease-out'
+                            }
+                        })
+                    </script>
+                    <section class="dialogo6">
+                        <p class="primero">TURISMO</p>
+                    </section>
+                    <section class="sec6">
+                        <div class="seis">
+                            <img src="productos/img/9.png" class="mercedez" id="animado11">
+                        </div>
+                        <div class="seis6" id="animado12">
+                            <h4>Conbi Mercedes Benz</h4>
+                            <ul>
+                                <li>Carga máxima remolcable con freno 2000</li>
+                                <li>Carga máxima sobre el techo [kg] 100</li>
+                                <li>Peso en vacío [kg] con M.M.A.1 2218</li>
+                                <li>Seguro Contra Todo Riesgo</li>
+                                <li>Póliza de seguro SOAT</li>
+                                <li>capaciada para 16 pasajeros</li>
+                                <li>Control Saterlital GPS</li>
+                            </ul>
+                        </div>
+                        </section>
+                        <script>
+                            window.addEventListener('scroll', function(){
+                                let animacion = document.getElementById('animado11');
+                                let posicionObj1 = animacion.getBoundingClientRect().top;
+                                console.log(posicionObj1);
+                                let tamañoDePantalla = window.innerHeight/1.2;
+                    
+                                if(posicionObj1 < tamañoDePantalla){
+                                    animacion.style.animation = 'mover 2s ease-out'
+                                }
+                            })
+                            window.addEventListener('scroll', function(){
+                                let animacion = document.getElementById('animado12');
+                                let posicionObj1 = animacion.getBoundingClientRect().top;
+                                console.log(posicionObj1);
+                                let tamañoDePantalla = window.innerHeight/1.6;
+                    
+                                if(posicionObj1 < tamañoDePantalla){
+                                    animacion.style.animation = 'mover 4s ease-out'
+                                }
+                            })
+                        </script>
+                         <!--::::Pie de Pagina::::::-->
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+            <div class="box">
+                <figure>
+                <a href="#">
+                    <img
+                    src="https://cdn.glitch.global/c8ae3563-7820-43f9-9f9d-9f7a9c05c680/GGG.png?v=1686265196769"
+                    alt="Logo de RENTAL"
+                    />
+                </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>¿Quiénes somos?</h2>
+            <p>
+                Contamos con 11 años de experiencia en alquiler de vehículos
+                corporativos y particulares en Perú, ofrece calidad, integridad,
+                seguridad y compromiso. Flota versátil para minería, construcción,
+                traslados y turismo. Precios competitivos y atención 24/7.
+                </p>
+                <p>
+                para mas informacion comuniquese con nosotros enviandonos una
+                cotizacion desde nuetras pagina o visite tambien nuetras redes
+                sociales.
+                </p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS:</h2>
+                <div class="redes-container">
+                <ul>
+                    <li>
+                    <a href="https://www.facebook.com/cesar.arzapalo?mibextid=ZbWKwL" class="facebook"><i class="fa fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                    <a
+                        href="https://www.instagram.com/carrental.es/"
+                        class="instagram"
+                        ><i class="fa fa-instagram"></i
+                    ></a>
+                    </li>
+                    <li>
+                    <a href="https://twitter.com/JHAMSCARRENTAL" class="twitter"
+                        ><i class="fa fa-twitter"></i
+                    ></a>
+                    </li>
+                    <li>
+                    <a
+                        href="https://www.youtube.com/channel/UCf_4UrjBxvHr5Lix9j75wuA"
+                        class="youtube"
+                        ><i class="fa fa-youtube"></i
+                    ></a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </div>
+            <div class="grupo-2">
+            <small
+                >&copy; 2012 <b>Rental JHAMS</b> - Todos los Derechos
+                Reservados.</small
+            >
+            </div>
+        </footer>
+    
+</body>
+</html>
